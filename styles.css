@@ -1,0 +1,68 @@
+body, h1, h2, h3, p, ul, li {
+  margin:0;
+  padding: 0;
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+}
+
+header {
+  background-color: rgb(20, 95, 170);
+  color: #0c0101;
+  text-align: center;
+  padding: 20px;
+}
+
+ h1,p {
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: rgb(0, 0, 1);
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(71, 126, 163);
+  font-size: 40px;
+}
+header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 24px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: rgb(184, 220, 220);
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+footer {
+  background-color: rgb(20, 95, 170);
+  color: #f1ebeb;
+  text-align: center;
+  padding: 10px 0;
+}
